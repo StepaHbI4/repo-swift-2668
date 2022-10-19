@@ -13,6 +13,7 @@
 		F70FD99028F7C27600899194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70FD98F28F7C27600899194 /* Assets.xcassets */; };
 		F70FD99328F7C27600899194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70FD99128F7C27600899194 /* LaunchScreen.storyboard */; };
 		F70FD99B28F7C35F00899194 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70FD99A28F7C35F00899194 /* LoginViewController.swift */; };
+		F7AB814B29000B88001BA414 /* UiViewController+xtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB814A29000B88001BA414 /* UiViewController+xtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F70FD99228F7C27600899194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F70FD99428F7C27600899194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F70FD99A28F7C35F00899194 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F7AB814A29000B88001BA414 /* UiViewController+xtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+xtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F70FD98628F7C27500899194 /* AppDelegate.swift */,
 				F70FD98828F7C27500899194 /* SceneDelegate.swift */,
 				F70FD99A28F7C35F00899194 /* LoginViewController.swift */,
+				F7AB814A29000B88001BA414 /* UiViewController+xtension.swift */,
 				F70FD98C28F7C27500899194 /* Main.storyboard */,
 				F70FD98F28F7C27600899194 /* Assets.xcassets */,
 				F70FD99128F7C27600899194 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				F70FD99B28F7C35F00899194 /* LoginViewController.swift in Sources */,
 				F70FD98728F7C27500899194 /* AppDelegate.swift in Sources */,
+				F7AB814B29000B88001BA414 /* UiViewController+xtension.swift in Sources */,
 				F70FD98928F7C27500899194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 		F70FD99828F7C27600899194 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +307,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Vladimir.Rudenky.VKproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=*]" = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
